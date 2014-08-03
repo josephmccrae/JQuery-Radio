@@ -1,0 +1,166 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+#container {
+    background-image: url('../images/collection.jpg');
+    background-repeat: no-repeat;
+    display: block;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 1200px;
+    min-width: 1600px;
+    position: fixed;
+    width: 100%;
+}
+
+
+#main {    
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid white;
+    border-radius: 50px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    height: 800px;
+    margin-left: 400px;
+    margin-top: 200px;
+    min-width: 800px;
+    max-width: 1200px;
+    width: 80%;
+}
+
+
+
+h1 {
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+
+/* display and controls */
+#display {
+    color: orange;
+    display: block;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 80%;
+}
+
+
+.screen {
+    background-color: #e5e5e5;
+    border: 4px inset #9a9a9a;
+    border-radius: 10px;
+    border-width: 2px;
+    color: orange;
+    display: block;
+    font-size: 1.5em;
+    height: 50px;
+    margin-bottom: 25px;
+    min-width: 400px;
+    opacity: .80;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.screen p {
+    margin-top: 10px;
+}
+
+
+audio {
+    display: block;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+/* input */
+.addTo {
+    border: 2px inset #9a9a9a;
+    border-width: 2px;
+    display: block;
+    font-size: large;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    opacity: .60;
+    text-align: center;
+    min-width: 400px;
+    width: 50%;
+}
+
+
+
+/* input */
+.playlist {
+    clear: both;
+    display: block;
+    height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.intro {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.holder {
+    display: block;
+    float: left;
+    height: 20px;
+    margin-right: 50px;
+    margin-top: 5px;
+    width: 25px;
+}
+
+
+.songs {
+    color: #797979;
+    clear: both;
+    display: block;
+    float: left;
+    font-size: 1.5em;
+    list-style: none;
+    width: 100%;
+}
+
+
+.highlight {
+    color:white;
+}
+
+
+.add {
+    float: left;
+    height: 20px;
+}
+
+
+.remove {
+    float: right;
+    height: 20px;
+    margin-top: 5px;
+}
