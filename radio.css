@@ -11,28 +11,25 @@ body {
 
 #container {
     background-image: url('Images/collection.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     display: block;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
     min-height: 1200px;
     min-width: 1600px;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
 
 #main {    
     background-color: rgba(0, 0, 0, 0.7);
-    border: 1px solid white;
-    border-radius: 50px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    height: 800px;
     margin-left: 400px;
     margin-top: 200px;
     min-width: 800px;
     max-width: 1200px;
+    position: relative;
     width: 80%;
 }
 
@@ -41,6 +38,15 @@ body {
 h1 {
     color: white;
     display: block;
+    text-align: center;
+}
+
+
+.intro {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    margin-top: 25px;
     text-align: center;
 }
 
@@ -79,10 +85,19 @@ h1 {
     margin-top: 10px;
 }
 
-
 audio {
     display: block;
     height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.instructions {
+    color: white;
+    display: block;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -96,9 +111,7 @@ audio {
     display: block;
     font-size: large;
     height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
+    margin:50px auto;
     opacity: .60;
     text-align: center;
     min-width: 400px;
@@ -106,8 +119,6 @@ audio {
 }
 
 
-
-/* input */
 .playlist {
     clear: both;
     display: block;
@@ -115,15 +126,6 @@ audio {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-}
-
-
-.intro {
-    color: white;
-    font-size: 1.5em;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    text-align: center;
 }
 
 
@@ -163,4 +165,10 @@ audio {
     float: right;
     height: 20px;
     margin-top: 5px;
+}
+
+
+.clear {
+    clear: both;
+    float: none;
 }
